@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pizza"
+            android:title="Pizza"
+            android:icon="@drawable/ic_baseline_local_pizza_24">
+
+        </item>
+
+        <item
+            android:id="@+id/cocktails"
+            android:title="CockTails"
+            android:icon="@drawable/ic_baseline_wine_bar_24">
+
+        </item>
+
+        <item
+            android:id="@+id/pasta"
+            android:title="Pasta"
+            android:icon="@drawable/ic_baseline_fastfood_24">
+
+        </item>
+
+        <item
+            android:id="@+id/contactus"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_baseline_contact_phone_24">
+
+        </item>
+
+        <item
+            android:id="@+id/aboutUs"
+            android:title="About Us"
+            android:icon="@drawable/ic_baseline_bubble_chart_24">
+
+        </item>
+
+        <item
+            android:id="@+id/share"
+            android:title="Share App"
+            android:icon="@drawable/ic_baseline_share_24">
+
+        </item>
+    </group>
+
+</menu>
