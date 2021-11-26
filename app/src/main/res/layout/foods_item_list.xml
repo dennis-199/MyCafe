@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/dountlayout"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageimage"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:layout_gravity="center"
+                android:background="@color/newc"
+                android:src="@drawable/donut2">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/timetaken"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/another"
+                android:text="@string/cooktime">
+
+            </TextView>
+            <TextView
+                android:id="@+id/abouttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/donut_text"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

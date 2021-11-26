@@ -5,6 +5,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -35,6 +37,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setHasFixedSize(true);
+
+        fooddata[] Fooddata = new fooddata[]{
+                new fooddata("it will 30 minutes","a good ice cream ", R.drawable.ice_cream),
+                new fooddata("it will 2 hours","a nice donut ", R.drawable.donut2),
+                new fooddata("Prep and  cook :1 hour","a good froyo ", R.drawable.froyo),
+        };
+
+        foodadaptar Foodadapter = new foodadaptar(Fooddata, MainActivity.this);
+        recyclerView.setAdapter(Foodadapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.navigationView);
         actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.menu_open, R.string.menu_close);

@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyCafe/app/src/main/res/layout/activity_main.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyCafe/app/src/main/res/layout/activity_main.xml" value="0.13" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyCafe/app/src/main/res/layout/foods_item_list.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyCafe/app/src/main/res/layout/header_menu.xml" value="0.1" />
         <entry key="..\:/Users/Lenovo/AndroidStudioProjects/MyCafe/app/src/main/res/menu/main_menu.xml" value="0.22447916666666667" />
       </map>

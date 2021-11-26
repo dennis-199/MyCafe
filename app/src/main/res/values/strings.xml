@@ -3,4 +3,6 @@
     <string name="email">otieno.dennis@strathmore.edu</string>
     <string name="menu_open">Open</string>
     <string name="menu_close">close</string>
+    <string name="donut_text">Donuts are glazed and sprinled with Candy</string>
+    <string name="cooktime">Prep &amp; cook time: 2hrs</string>
 </resources>
